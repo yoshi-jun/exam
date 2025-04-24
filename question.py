@@ -2,7 +2,7 @@ import numpy as np
 
 #------------------------------------------------------------------------------
 def load_question():
-    with open('q.txt', 'r', encoding='utf-8') as file:
+    with open('.q.txt', 'r', encoding='utf-8') as file:
         content = file.read()
 
     contents = content.split("\n\n")
@@ -14,7 +14,7 @@ def load_question():
 
 #------------------------------------------------------------------------------
 def load_ans():
-    with open('a.txt', 'r', encoding='utf-8') as file:
+    with open('.a.txt', 'r', encoding='utf-8') as file:
         content = file.read()
 
     contents = content.split("\n\n")
